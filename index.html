@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currículo</title>
+
+    <link rel="icon" href="img/OIP-removebg-preview.png" type="image/png">
+
+    <meta name="description" content="Currículo de João Pedro">
+    <meta name="author" content="João Pedro">
+    <meta name="keywords" content="currículo, HTML, CSS, JavaScript">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profile_text">
+                <div class="img_bx">
+                    <!-- Substitua a imagem profile.png na pasta img e altere src para "img/NOME_DA_SUA_IMAGEM_COM_EXTENSÃO" -->
+                    <img src="img/WhatsApp Image 2026-07-06 at 20.22.50.jpeg" alt="Foto de perfil">
+                </div>
+                <!-- Substitua Clarinha por seu nome e "Data Scientist | Data Analyst | Data Engineer" pelos seus cargos/títulos -->
+                <h2>João pedro<br><span>DESENVOLVEDOR | PROGRAMADOR</span></h2>
+            </div>
+
+            <div class="contact_info">
+                <h3 class="title">Informações de Contato</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <!-- Substitua por seu DDI (código DDI do Brasil é 55), DDD e número de celular -->
+                        <a href="https://wa.me/5524999199074" target="_blank" title="Clique para enviar mensagem"><span
+                                class="text">+55 (24) 999199074</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <!-- Substitua por seu email -->
+                        <a href="https://mailto:joao.seixas14avata@gmail.com" target="_blank"
+                            title="Clique para enviar email"><span class="text">joao.seixas14avata@gmail.com</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <!-- Coloque o link do seu linkedin em href e substitua "linkedin.com/in/clarinha/" pelo seu link sem https:// -->
+                        <a href="https://linkedin.com/in/joao-pedro-seixas" target="_blank"
+                            title="Clique para ir ao LinkedIn"><span
+                                class="text">linkedin.com/in/joao-pedro-seixas</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                        <!-- Coloque o link do seu github em href e substitua "github.com/clarinha" pelo seu link sem https:// -->
+                        <a href="https://github.com/Izuna24" target="_blank" title="Clique para ir ao GitHub"><span
+                                class="text">github.com/Izuna24</span></a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <!-- Substitua pelo estado e país na qual vive -->
+                        <a href="https://www.google.com/maps?q=-22.4400438,-44.3133695" target="_blank"
+                            title="Clique para localizar"><span class="text">Rio de Janeiro, Brasil</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact_info education">
+                <h3 class="title">Formação</h3>
+                <ul>
+                    <li>
+                        <!-- Substitua pelo ano de ingresso e conclusão de curso (se estiver cursando, coloque Atual ou o ano esperado para a formação) -->
+                        <h5>2024</h5>
+                        <h4>Ensino Médio – Completo</h4>
+                        <h4>Colégio Estadual República Italiana</h4>
+                    </li>
+                    <!-- Se precisar adicionar mais formações só copiar o trecho <li>...</li> e colar logo abaixo. Veja o exemplo-->
+
+                </ul>
+            </div>
+
+            <div class="contact_info language">
+                <h3 class="title">Idiomas</h3>
+                <ul>
+                    <li>
+                        <!-- Substitua "Português" pelo idioma que você quer -->
+                        <span class="text">Português</span>
+                        <span class="percent">
+                            <!-- Altera a porcentagem de acordo com a sua proeficiência no idioma acima -->
+                            <div style="width: 100%;"></div>
+                        </span>
+                    </li>
+                    <!-- Se precisar adicionar mais idiomas só copiar o trecho <li>...</li> e colar logo abaixo. Veja o exemplo -->
+                    <li>
+                        <!-- Substitua "Inglês" pelo idioma que você quer -->
+                        <span class="text">Inglês</span>
+                        <!-- Altera a porcentagem de acordo com a sua proeficiência no idioma acima -->
+                        <span class="percent">
+                            <div style="width: 10%;"></div>
+                        </span>
+                    </li>
+
+                    <!-- Se precisar remover algum idioma só deletar o trecho <li>...</li> em que o idioma está inserido -->
+                </ul>
+            </div>
+
+        </div>
+        <div class="right_side">
+            <div class="light-dark-mode">
+                <div class="trilho" id="trilho">
+                    <div class="indicador">
+                        <i class="bi bi-brightness-high-fill" id="icone"></i>
+                        <!-- <i class="bi bi-moon-fill"></i> -->
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+            <div class="about">
+                <h2 class="title2">Sobre</h2>
+                <!-- Substitua a apresentação da clarinha pela sua, contando um pouco sobre você e sua jornada -->
+                <p>Olá! Meu nome é João Pedro e sou apaixonado por tecnologia, programação e dados.
+                    <!-- Use <br><br> para pular linhas -->
+                    <br><br>Estou sempre em busca de aprender novas linguagens, ferramentas e tecnologias para evoluir
+                    como desenvolvedor e criar soluções inovadoras. Gosto de enfrentar desafios, explorar novas ideias e
+                    transformar conhecimento em projetos práticos. Acredito que a aprendizagem contínua é a chave para
+                    acompanhar a constante evolução da tecnologia e desenvolver soluções cada vez melhores.
+
+            </div>
+            <div class="about">
+
+
+
+
+
+
+                <h2 class="title2">Experiência</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2024 - 2026 ATUAL</h5>
+                        <h5>AUTO ELETRICA</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>AUXILIAR ELETRICISTA AUTOMOTIVO</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Experiência em manutenção de sistemas elétricos de carros e caminhões, com apoio em reparos
+                            de alternadores, motores de arranque e sistemas de iluminação automotiva, além de testes
+                            elétricos e organização da oficina.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <h2 class="title2">Cursos e Certificações</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2022 - 2022</h5>
+                        <h5>Microcamp</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>Pacote Office</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Aprendizado e prática dos principais programas do Pacote Office, como Word, Excel e
+                            PowerPoint, com foco em criação de documentos, planilhas, apresentações e organização de
+                            informações.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2021 - 2021</h5>
+                        <h5>plano a</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>Robótica</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Aprendizado e prática dos conceitos básicos de robótica, incluindo noções de automação, sensores, programação básica e montagem de circuitos simples. Desenvolvimento do raciocínio lógico e interesse em tecnologia e sistemas automatizados.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2024 - 2024</h5>
+                        <h5>curso em video</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>Python</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Estudo e prática da linguagem Python, com foco em lógica de programação, automação de
+                            tarefas e desenvolvimento de scripts simples. Experiência com estruturas de decisão,
+                            repetição, funções e manipulação básica de dados. Interesse em evolução para áreas como
+                            desenvolvimento backend e ciência de dados.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2026 - 2026 Atual</h5>
+                        <h5>Escola instrônica</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>Reparo em Placas Eletrônicas</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                           Aprendizado em diagnóstico, identificação e reparo de placas eletrônicas, utilizando instrumentos de medição, interpretação de esquemas elétricos e técnicas de soldagem e substituição de componentes eletrônicos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2026 - 2026 Atual</h5>
+                        <h5>Treinatec-bh</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>refrigeração e AR-Condicionado</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Formação em instalação, manutenção preventiva e corretiva de sistemas de refrigeração e ar-condicionado, com conhecimentos em diagnóstico de falhas, componentes do sistema, carga de fluido refrigerante, utilização de ferramentas específicas e boas práticas de segurança.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2026 - 2026 Atual</h5>
+                        <h5>Professor Emerson Leite</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>Montagem de quadros eletrônicos</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Formação prática em montagem de quadros elétricos de comando e distribuição, interpretação de diagramas elétricos, identificação e instalação de componentes, organização de painéis, dimensionamento de dispositivos de proteção, realização de testes, identificação de falhas e aplicação das normas de segurança em instalações elétricas.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="year_company">
+                        <!-- Substitua pelo ano de ingresso e de saída da empresa (se for seu emprego atual, coloque Atual) -->
+                        <h5>2026 - 2026 Atual</h5>
+                        <h5>FAETEC</h5>
+                    </div>
+                    <div class="text">
+                        <!-- Substitua pelo seu cargo -->
+                        <h4>PROGRAMADOR WEB</h4>
+                        <!-- Descreva suas funções para o cargo mencionado -->
+                        <p>
+                            Minha responsabilidade principal é liderar a visão estratégica da empresa e garantir que
+                            nossos objetivos sejam alcançados de forma eficaz e eficiente.
+                        </p>
+                    </div>
+                </div>
+                <!-- Se precisar adicionar mais experiências só copiar o trecho <div class="box">...</div> e colar abaixo. Veja o exemplo -->
+
+
+
+
+                <!-- Se precisar remover alguma experiência só deletar o trecho <div class="box">...</div> em que a experiência está inserida -->
+            </div>
+
+            <div class="about skills">
+                <h2 class="title2">Habilidades Profissionais</h2>
+                <div class="box">
+                    <!-- Substitua "Python" pela habilidade que você quiser -->
+                    <h4>Python</h4>
+                    <div class="percent">
+                        <!-- Altera a porcentagem de acordo com a sua proeficiência na habilidade acima  -->
+                        <div style="width: 50%;"></div>
+                    </div>
+                </div>
+                <!-- Se precisar adicionar mais habilidades só copiar o trecho <div class="box">...</div> e colar abaixo. Veja o exemplo -->
+                <div class="box">
+                    <!-- Substitua "Python" pela habilidade que você quiser -->
+                    <h4>HTML</h4>
+                    <div class="percent">
+                        <!-- Altera a porcentagem de acordo com a sua proeficiência na habilidade acima  -->
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- Substitua "Python" pela habilidade que você quiser -->
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <!-- Altera a porcentagem de acordo com a sua proeficiência na habilidade acima  -->
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <!-- Substitua "Python" pela habilidade que você quiser -->
+                    <h4>JAVA SCRIPT</h4>
+                    <div class="percent">
+                        <!-- Altera a porcentagem de acordo com a sua proeficiência na habilidade acima  -->
+                        <div style="width: 50%;"></div>
+                    </div>
+                </div>
+                <!-- Se precisar remover alguma habilidade só deletar o trecho <div class="box">...</div> em que a habilidade está inserida -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
